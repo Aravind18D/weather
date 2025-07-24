@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+</head>
+<body class="body">
+    <div class="container"></div>
+        <h1 id="h1">Weather App</h1>
+        <input type="text" required placeholder="Enter YOUR CITY NAME"   name="city" id="name">
+        <button type="submit" id="search" onclick="getData()">search</button>
+    </div>
+    <div class="container1">
+        <div class="DETAILS">
+            <p >City Name :</p>
+            <p id="cityname"></p>
+        
+         </div>
+        <div class="DETAILS">
+            <p >Tempature :</p>
+            <p id="temp"></p>
+        </div>
+        <div class="DETAILS">    
+            <p >Pressure :</p>
+            <p id="pressure"></p>
+        </div>
+        <div class="DETAILS">
+            <p>Humidity :</p>
+            <p id="humidity"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
